@@ -7,7 +7,7 @@ It ensures reproducibility across environments (**dev, staging, prod**) using **
 ---
 
 ## 🏗️ Architecture Diagram
-Below is a simplified architecture representation (can be drawn in **draw.io** or **Lucidchart**):
+Below is a simplified architecture representation:
 
 ![AWS Architecture](/aws_architecture.png)
 
@@ -45,7 +45,7 @@ Below is a simplified architecture representation (can be drawn in **draw.io** o
 
 ### 2. Clone Repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/harshsingh262/iac.git
 cd terraform_iac_for_project
 ```
 
