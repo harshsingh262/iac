@@ -1,0 +1,17 @@
+name = "prod"
+aws_region = "us-east-1"
+vpc_cidr = "10.20.0.0/16"
+public_subnets = ["10.20.1.0/24", "10.20.2.0/24"]
+private_subnets = ["10.20.3.0/24", "10.20.4.0/24"]
+azs = ["us-east-1a", "us-east-1b"]
+ami = "ami-0c02fb55956c7d316"
+instance_type = "t3.medium"
+allowed_ssh_cidrs = ["10.0.0.0/8"]
+db_allocated_storage = 100
+db_engine = "mysql"
+db_engine_version = "8.0"
+db_instance_class = "db.t3.medium"
+db_name = "appdb"
+db_username = "admin"
+db_password = "ProdChangeMe!!!"
+db_security_group_ids = []

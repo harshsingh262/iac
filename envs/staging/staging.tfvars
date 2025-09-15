@@ -1,0 +1,17 @@
+name = "staging"
+aws_region = "us-east-1"
+vpc_cidr = "10.10.0.0/16"
+public_subnets = ["10.10.1.0/24", "10.10.2.0/24"]
+private_subnets = ["10.10.3.0/24", "10.10.4.0/24"]
+azs = ["us-east-1a", "us-east-1b"]
+ami = "ami-0c02fb55956c7d316"
+instance_type = "t3.small"
+allowed_ssh_cidrs = ["0.0.0.0/0"]
+db_allocated_storage = 20
+db_engine = "mysql"
+db_engine_version = "8.0"
+db_instance_class = "db.t3.small"
+db_name = "appdb"
+db_username = "admin"
+db_password = "ChangeMe123!"
+db_security_group_ids = []
