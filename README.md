@@ -9,7 +9,7 @@ It ensures reproducibility across environments (**dev, staging, prod**) using **
 ## 🏗️ Architecture Diagram
 Below is a simplified architecture representation:
 
-![AWS Architecture](/aws_architecture.png)
+![AWS Architecture](/aws_architecture1.png)
 
 - **VPC** – Provides isolated networking.  
 - **EC2** – Hosts the application.  
